@@ -20,5 +20,6 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-webserver_headers:
-  "Access-Control-Allow-Origin": "*"
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
