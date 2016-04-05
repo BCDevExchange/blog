@@ -6,6 +6,6 @@ This is the content repository supplying blog to https://bcdevexchange.org, powe
 3. Publish the blog to https://bcdevexchange.org by moving the file from `_drafts` folder to `_posts` folder.
 4. To unpublish, You can do one of following:
     1. take out `BCDev` from the category;
-    2. set variable [`published`](https://jekyllrb.com/docs/frontmatter/#predefined-global-variables) to true in Front Matter;
+    2. set variable [`published`](https://jekyllrb.com/docs/frontmatter/#predefined-global-variables) to false in Front Matter;
     3. move the file from `_posts` to `_drafts` folder;
     4. delete the file; 
